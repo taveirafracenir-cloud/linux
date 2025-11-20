@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<egg>
+  <text>Enzo 1.0.0 EasterEgg</text>
+  <button>onclick="EasterEgg Space egg" name="Go!"</button>
+</egg>
