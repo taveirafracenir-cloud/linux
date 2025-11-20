@@ -1,0 +1,6 @@
+genrule {
+    name: "gerar_telas_cfg",
+    cmd: "./Soong/build_soong",
+    tools: ["./Soong/build_soong"],
+    out: ["telas.cfg"],
+}
