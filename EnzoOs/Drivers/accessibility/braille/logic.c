@@ -40,9 +40,11 @@ linux_enzoos_braile_number("8");
 linux_enzoos_braile_number("9");
 linux_enzoos_braile_number("0");
 
-void braile_error() {
-#if
-printk("ERROR: FALHA A CARREGAR .../logic.c");
+void braile_error(void)
+{
+#if BRAILLE_DEBUG
+    printk(KERN_ERR "ERROR: FALHA A CARREGAR .../logic.c\n");
 #else
-printk("WARNING: SUCESSO INICIANDO BRAILLE...");
+    printk(KERN_WARNING "WARNING: SUCESSO INICIANDO BRAILLE...\n");
+#endif
 }
