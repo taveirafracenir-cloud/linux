@@ -2,8 +2,8 @@
 VERSION = 6
 PATCHLEVEL = 18
 SUBLEVEL = 0
-EXTRAVERSION = -rc3
-NAME = Baby Opossum Posse
+EXTRAVERSION = -EnzoOS0.1
+NAME = EnzoOS
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
