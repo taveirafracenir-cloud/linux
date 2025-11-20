@@ -1,5 +1,4 @@
 #include "logic.h"
-#include "logic.c"
 
 void speakers_pt_br(void) {
   speakup_say("não posso ajudar com isso.");
