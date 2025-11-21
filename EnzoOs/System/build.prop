@@ -1,0 +1,8 @@
+distro.version=1.0.0
+distro.kernel=linux
+distro.kernel.authors=Linus torvalds and others
+distro.author=FrancenirTaveira@gmail.com 
+distro.language=pt-br
+distro.time.zone=America/sao_paulo
+distro.ui=EnzoOS Ui API
+distro.origin.to.enzoos=Fork in linux
